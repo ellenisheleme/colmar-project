@@ -1,3 +1,73 @@
-h1{
-    color:blue
+.inner-container{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    margin: 32px 24px;
+    
+}
+
+.left-container{
+      width: 60%;
+   
+}
+#manReading-container{
+  
+    height: auto;
+    margin-right: 24px;
+    margin-left: 24px;
+   
+
+
+}
+.main-image{
+    width: 100%;
+
+}
+.header-text{
+
+    margin-bottom: 24px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px ;
+   
+}
+.quote{
+    margin-top: 24px;
+    margin-bottom: 32px;
+    font-size: 18px;
+}
+.right-container{
+    width: 40%;
+    height: auto;
+    
+}
+    
+.right-top{
+
+    display: inline-flex; 
+    padding: 10px 0px 10px;
+}
+.orientation-image{
+   
+    height: auto;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+.orientation{
+    width: 65%;
+    height: auto;
+    margin-right: 0;
+}
+.right-top img{
+   width: 100%;
+    
+}
+.orientation a{
+    text-decoration: none;
+    color:#0084ff;
+    font-size: 18px;
+}
+hr{
+
+    color:lightgray;
 }
