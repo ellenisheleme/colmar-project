@@ -39,35 +39,114 @@
 .right-container{
     width: 40%;
     height: auto;
-    
+   
 }
-    
+
 .right-top{
 
-    display: inline-flex; 
-    padding: 10px 0px 10px;
+    display: flex; 
+    width: 100%;
 }
+     
+.right-top-left {
+   width: 35%;
+   display: inline-flex;
+}
+ 
 .orientation-image{
-   
+    
+    margin: 16px 24px 16px;
+    
     height: auto;
-    margin-left: 24px;
-    margin-right: 24px;
+
 }
 .orientation{
-    width: 65%;
-    height: auto;
-    margin-right: 0;
+width: 65%; 
+ height: auto;
+ margin-left: 30px;
+    
 }
 .right-top img{
    width: 100%;
-    
+   height: auto;
 }
 .orientation a{
     text-decoration: none;
     color:#0084ff;
     font-size: 18px;
 }
-hr{
+.right-middel{
 
-    color:lightgray;
+    display: flex; 
+    width: 100%;
+}
+     
+.right-middle-left {
+   width: 35%;
+   display: inline-flex;
+}
+ 
+.campus-image{
+    
+    margin: 16px 24px 16px;
+    
+    height: auto;
+
+}
+.campus{
+width: 65%; 
+ height: auto;
+ margin-left: 30px;
+    
+}
+.campus-image img{
+   width: 100%;
+   height: auto;
+}
+.campus a{
+    text-decoration: none;
+    color:#0084ff;
+    font-size: 18px;
+}
+
+.right-last{
+
+    background-color: rgb(211, 211, 211);
+    display: flex; 
+    width: 100%;
+}
+     
+.right-last-left {
+   width: 35%;
+   display: inline-flex;
+}
+ 
+.guestImage-container{
+    
+    margin: 16px 24px 16px;
+    
+    height: auto;
+
+}
+.lectureContent{
+width: 65%; 
+ height: auto;
+ margin-left: 30px;
+    
+}
+.guestImage-container img{
+   width: 100%;
+   height: auto;
+}
+.lectureContent a{
+    text-decoration: none;
+    color:#0084ff;
+    font-size: 18px;
+}
+h1{
+    padding-top: 24px;
+}
+p{
+
+    padding-top: 8px;
 }
